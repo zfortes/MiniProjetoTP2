@@ -1,4 +1,3 @@
 [info] TestMulti:
 [info] An Multi expression
 [info] - should return String (100 * 200) when we call Multi(Literal(100), Literal(200).print())
-[info] - should return 20000 when we call call Multi(Literal(100), Literal(200)).eval()
