@@ -1,0 +1,4 @@
+[error] /home/fortes/Trabalhos/TP2/MiniProjetoTP2/src/test/scala/br/unb/cic/epl/TestSub.scala:9:7: TestAdd is already defined as class TestAdd
+[error] class TestAdd extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
+[error]       ^
+[error] one error found

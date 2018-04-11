@@ -1,3 +1,13 @@
 run
 clear
 run
+test
+testOnly
+test
+testOnly
+test
+testOnly
+compile
+run
+teste
+test

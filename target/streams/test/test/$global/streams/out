@@ -1,0 +1,14 @@
+[debug] Running TaskDef(br.unb.cic.epl.TestAdd, org.scalatest.tools.Framework$$anon$1@28719469, false, [SuiteSelector])
+[debug] Running TaskDef(br.unb.cic.epl.TestMulti, org.scalatest.tools.Framework$$anon$1@28719469, false, [SuiteSelector])
+[debug] Running TaskDef(br.unb.cic.epl.TestSub, org.scalatest.tools.Framework$$anon$1@28719469, false, [SuiteSelector])
+[debug] Running TaskDef(br.unb.cic.epl.TestLiteral, org.scalatest.tools.Framework$$anon$1@28719469, false, [SuiteSelector])
+[info] Run completed in 313 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 4, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	br.unb.cic.epl.TestSub
+[debug] 	br.unb.cic.epl.TestAdd
+[debug] 	br.unb.cic.epl.TestMulti
+[debug] 	br.unb.cic.epl.TestLiteral

@@ -1,0 +1,4 @@
+[info] TestLiteral:
+[info] A Literal
+[info] - should return string 100 when we call literal100.print()
+[info] - should return Integer 1000 when we call literal1000.eval()
