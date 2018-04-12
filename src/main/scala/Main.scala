@@ -11,10 +11,11 @@ object Main extends App {
 
   val sum = new AddEval.Add(lit100, lit500)
 
-
   println(sum.print())
   var tam_sum = new Tamanho.Tamanho(sum.print())
-  tam_sum.tam_sum(sum.print())
+  tam_sum.tam_sum()
+  println(tam_sum.exp_sum)
+
 
   println(sum.eval())
 
@@ -22,16 +23,15 @@ object Main extends App {
 
   println(mult.print())
   var tam_mult = new Tamanho.Tamanho(mult.print())
-  tam_mult.tam_mult(mult.print())
-  println(mult.eval())
+  tam_mult.tam_mult()
+  println(tam_mult.exp_mult)
 
   val sub = new SubEval.Sub(lit100, lit500)
 
   println(sub.print())
   var tam_sub = new Tamanho.Tamanho(sub.print())
-  tam_sub.tam_sum(sub.print())
-  println(sub.eval())
-
+  tam_sub.tam_sub()
+  println(tam_sub.exp_sub)
 
 
 }

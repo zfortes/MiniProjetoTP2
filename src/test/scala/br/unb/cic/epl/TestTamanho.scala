@@ -1,8 +1,8 @@
 package br.unb.cic.epl
-import  br.unb.cic.epl.Tamanho
 import br.unb.cic.MultiEval
-import br.unb.cic.epl.AddEval
 import br.unb.cic.SubEval
+import br.unb.cic.epl.AddEval
+import br.unb.cic.epl.Tamanho
 
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
@@ -10,7 +10,7 @@ import org.scalatest.GivenWhenThen
 import org.scalatest.BeforeAndAfter
 
 
-class TestMulti extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter
+class TestTamanho extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter
 {
 
   behavior of "An Tamanho expression"
@@ -29,13 +29,17 @@ class TestMulti extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
     sub = new SubEval.Sub(lit100, lit500)
     mult = new MultiEval.Multi(lit100, lit500)
 
+
+
   }
 
-  it should "return String 2 when we call tam_sum.tam_sum(sum.print())" in
+  it should "return String 2 when we call print(tam_sum.exp_sum)" in
     {
       var tam_sum = new Tamanho.Tamanho(sum.print())
+      tam_sum.tam_sum()
+      print(tam_sum.exp_sum)
 
-      tam_sum.tam_sum(sum.print()) should be ("2")
+      print(tam_sum.exp_sum) should be ("2")
     }
 
   it should "return String 2 when we call tam_sub.tam_sub(sub.print())" in

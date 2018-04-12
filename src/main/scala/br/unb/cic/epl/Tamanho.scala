@@ -4,8 +4,11 @@ package object Tamanho
 {
   class Tamanho (exp: String)
   {
+    var exp_sum = 0
+    var exp_sub = 0
+    var exp_mult = 0
 
-    def tam_sum(exp: String)
+    def tam_sum(any: Any)
     {
       var i = 0
       var f = exp.length()
@@ -22,10 +25,10 @@ package object Tamanho
         i += 1
       }
 
-      println(cont)
+      exp_sum = cont
     }
 
-    def tam_sub(exp: String)
+    def tam_sub(any: Any)
     {
       var i = 0
       var f = exp.length()
@@ -42,10 +45,10 @@ package object Tamanho
         i += 1
       }
 
-      println(cont)
+      exp_sub = cont
     }
 
-    def tam_mult(exp: String)
+    def tam_mult(any: Any)
     {
       var i = 0
       var f = exp.length()
@@ -62,7 +65,7 @@ package object Tamanho
         i += 1
       }
 
-      println(cont)
+      exp_mult = cont
     }
 
   }
