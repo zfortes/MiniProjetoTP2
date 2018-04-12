@@ -1,4 +1,8 @@
-[error] /home/fortes/Trabalhos/TP2/MiniProjetoTP2/src/test/scala/br/unb/cic/epl/TestSub.scala:9:7: TestAdd is already defined as class TestAdd
-[error] class TestAdd extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
-[error]       ^
-[error] one error found
+[warn] /home/fortes/Trabalhos/TP2/MiniProjetoTP2/src/test/scala/br/unb/cic/epl/TestTamanho.scala:4:23: imported `AddEval' is permanently hidden by definition of package AddEval in package epl
+[warn] import br.unb.cic.epl.AddEval
+[warn]                       ^
+[warn] /home/fortes/Trabalhos/TP2/MiniProjetoTP2/src/test/scala/br/unb/cic/epl/TestTamanho.scala:5:23: imported `Tamanho' is permanently hidden by definition of package Tamanho in package epl
+[warn] import br.unb.cic.epl.Tamanho
+[warn]                       ^
+[warn] there were three deprecation warnings (since 2.11.0); re-run with -deprecation for details
+[warn] three warnings found

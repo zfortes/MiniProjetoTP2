@@ -1,4 +1,2 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/fortes/Trabalhos/TP2/miniprojeto/src/main/scala/br/unb/cic/epl/Add.scala:2:23: imported `Eval' is permanently hidden by definition of package Eval in package epl[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport br.unb.cic.epl.Eval[0m
-[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[warn] there were three deprecation warnings (since 2.11.0); re-run with -deprecation for details
+[warn] one warning found

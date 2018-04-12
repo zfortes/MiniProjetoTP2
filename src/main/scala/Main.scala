@@ -14,6 +14,7 @@ object Main extends App {
   println(sum.print())
   var tam_sum = new Tamanho.Tamanho(sum.print())
   tam_sum.tam_sum()
+  print("Tamanho = ")
   println(tam_sum.exp_sum)
 
 
@@ -24,14 +25,21 @@ object Main extends App {
   println(mult.print())
   var tam_mult = new Tamanho.Tamanho(mult.print())
   tam_mult.tam_mult()
+  print("Tamanho = ")
   println(tam_mult.exp_mult)
+
+  println(mult.eval())
 
   val sub = new SubEval.Sub(lit100, lit500)
 
   println(sub.print())
   var tam_sub = new Tamanho.Tamanho(sub.print())
   tam_sub.tam_sub()
+  print("Tamanho = ")
   println(tam_sub.exp_sub)
+
+
+  println(sub.eval())
 
 
 }
