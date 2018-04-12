@@ -3,7 +3,7 @@ import br.unb.cic.epl.Core
 import br.unb.cic.epl.Eval
 import br.unb.cic.epl.Add
 import br.unb.cic.epl.AddEval
-import br.unb.cic.epl.tamanho
+import br.unb.cic.epl.Tamanho
 
 object Main extends App {
   val lit100 = new Core.Literal(100) with Eval.Literal
@@ -13,7 +13,7 @@ object Main extends App {
 
 
   println(sum.print())
-  var tam_sum = new tamanho.tamanho(sum.print())
+  var tam_sum = new Tamanho.Tamanho(sum.print())
   tam_sum.tam_sum(sum.print())
 
   println(sum.eval())
@@ -21,14 +21,14 @@ object Main extends App {
   val mult = new MultiEval.Multi(lit100, lit500)
 
   println(mult.print())
-  var tam_mult = new tamanho.tamanho(mult.print())
+  var tam_mult = new Tamanho.Tamanho(mult.print())
   tam_mult.tam_mult(mult.print())
   println(mult.eval())
 
   val sub = new SubEval.Sub(lit100, lit500)
 
   println(sub.print())
-  var tam_sub = new tamanho.tamanho(sub.print())
+  var tam_sub = new Tamanho.Tamanho(sub.print())
   tam_sub.tam_sum(sub.print())
   println(sub.eval())
 

@@ -1,8 +1,8 @@
 package br.unb.cic.epl
 
-package object tamanho
+package object Tamanho
 {
-  class tamanho (exp: String)
+  class Tamanho (exp: String)
   {
 
     def tam_sum(exp: String)
