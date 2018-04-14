@@ -4,20 +4,23 @@ package object Height
 {
   class Hei(exp: String)
   {
-    var h_sum = 0
+    var h_exp = 0
     var h_sub = 0
     var h_mult = 0
 
-    def hei_sum(any: Any)
+    def hei_exp(any: Any)
     {
       var i = 0
       var f = exp.length()
       var cont = 1
 
+      i = 0
+      f = exp.length()
+      cont = 1
       while (i < f)
       {
 
-        if (exp(i) == '+')
+        if (exp(i) == '+' || exp(i) == '-' || exp(i) == '*')
         {
           cont += 1
         }
@@ -25,9 +28,9 @@ package object Height
         i += 1
       }
 
-      h_sum = cont
+      h_exp = cont
     }
-
+    //metodos abaixo não são utilizados
     def hei_sub(any: Any)
     {
       var i = 0

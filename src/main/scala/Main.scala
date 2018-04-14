@@ -14,13 +14,11 @@ object Main extends App {
   println(sum.print())
 
   var hei_sum = new Height.Hei(sum.print())
-  hei_sum.hei_sum()
+  hei_sum.hei_exp()
   print("Altura = ")
-  println(hei_sum.h_sum)
+  println(hei_sum.h_exp)
 
   println(sum.eval())
-  //var tam_arv_sum = new Tamanho.T_Arvore(sum)
-  //println(tam_arv_sum.tam_arvore(sum))
 
   val mult = new MultiEval.Multi(lit100, lit500)
 
