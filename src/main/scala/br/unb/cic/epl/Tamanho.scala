@@ -70,4 +70,25 @@ package object Tamanho
 
   }
 
+  class T_Arvore (op: AddEval.Add)
+  {
+
+    def tam_arvore(any: Any):Int =
+    {
+      var c = 0
+      if (op != null )
+      {
+        tam_arvore(op.lhs)
+        tam_arvore(op.rhs)
+
+        c += 1
+      }
+
+      return c
+    }
+
+
+
+
+  }
 }

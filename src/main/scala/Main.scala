@@ -12,13 +12,18 @@ object Main extends App {
   val sum = new AddEval.Add(lit100, lit500)
 
   println(sum.print())
+  //print("Teste: ")
+  //println(sum.lhs.eval())
+
   var tam_sum = new Tamanho.Tamanho(sum.print())
   tam_sum.tam_sum()
   print("Tamanho = ")
   println(tam_sum.exp_sum)
 
-
   println(sum.eval())
+  var tam_arv_sum = new Tamanho.T_Arvore(sum)
+  println(tam_arv_sum.tam_arvore(sum))
+
 
   val mult = new MultiEval.Multi(lit100, lit500)
 
